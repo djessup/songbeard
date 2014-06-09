@@ -1,0 +1,17 @@
+{% macro item(text, route) %}
+    <li class="{% if app.request.attributes.get('_route') == route %}active{% endif %}">
+        <a href="{{ path(route) }}">{{ text }}</a>
+    </li>
+{% endmacro %}
+
+{% macro startDropdown(text, activeRoutes) %}
+    <li class="dropdown{% if app.request.attributes.get('_route') in activeRoutes %} active{% endif %}">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ text }} <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+{% endmacro %}
+
+
+{% macro endDropdown() %}
+        </ul>
+    </li>
+{% endmacro %}

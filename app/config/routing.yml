@@ -1,0 +1,4 @@
+songbeard_show:
+    resource: "@SongbeardShowBundle/Resources/config/routing.yml"
+    prefix:   /shows/
+

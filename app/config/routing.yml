@@ -1,3 +1,8 @@
+songbeard_songbeard:
+    resource: "@SongbeardSongbeardBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 songbeard_show:
     resource: "@SongbeardShowBundle/Resources/config/routing.yml"
     prefix:   /shows/

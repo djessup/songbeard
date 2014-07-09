@@ -1,7 +1,0 @@
-parameters:
-#    songbeard_show.example.class: Songbeard\ShowBundle\Example
-
-services:
-#    songbeard_show.example:
-#        class: %songbeard_show.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]

@@ -6,7 +6,7 @@
  * Time: 8:19 PM
  */
 
-namespace Songbeard\ShowBundle\MetadataProvider;
+namespace Songbeard\SongbeardBundle\MetadataProvider;
 
 use Songbeard\SongbeardBundle\Entity\Episode;
 use Songbeard\SongbeardBundle\Entity\TvShow;

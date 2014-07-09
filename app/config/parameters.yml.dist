@@ -1,10 +1,9 @@
 parameters:
-    database_driver:   pdo_mysql
-    database_host:     127.0.0.1
-    database_port:     ~
-    database_name:     symfony
-    database_user:     root
-    database_password: ~
+    database_driver:   pdo_sqlite
+    database_path:     "%kernel.root_dir%/data/songbeard.sq3"
+    database_name:     songbeard
+    database_user:     songbeard
+    database_password: songbeard
 
     mailer_transport:  smtp
     mailer_host:       127.0.0.1

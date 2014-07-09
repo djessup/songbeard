@@ -19,7 +19,6 @@ class AppKernel extends Kernel
 	        new Tobiassjosten\TheTVDBBundle\TobiassjostenTheTVDBBundle(),
 	        new JMS\SerializerBundle\JMSSerializerBundle(),
 	        new FOS\RestBundle\FOSRestBundle(),
-            new Songbeard\ShowBundle\SongbeardShowBundle(),
             new Songbeard\SongbeardBundle\SongbeardSongbeardBundle(),
         );
 
